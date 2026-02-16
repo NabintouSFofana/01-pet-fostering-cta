@@ -1,0 +1,118 @@
+/* Reset default page spacing */
+body {
+	margin: 0;
+	font-family: Arial, "Helvetica Neue", sans-serif;
+	background-color: #eaf7f7;
+}
+
+/* Keep the top header short and simple */
+.site-header {
+	padding: 14px 24px;
+	background-color: #0b4f56;
+	color: #ffffff;
+}
+
+/* Style the site name with clear readability */
+.site-header h2 {
+	margin: 0;
+	font-size: 24px;
+	line-height: 1.2;
+}
+
+/* Create a tall, eye-catching banner area */
+.cta-banner {
+	min-height: 10vh;
+	padding: 65px 40px 30px 40px;
+	text-align: center;
+	background-color: #0d5c63;
+	/* Add a light overlay so the image remains subtle */
+	background-image: linear-gradient(rgba(230, 245, 246, 0.72), rgba(230, 245, 246, 0.72)), url("img/cta-bg.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #184f56;
+}
+
+/* Style the main headline for strong impact */
+.cta-banner h1 {
+	margin-top: 0;
+	margin-bottom: 16px;
+	font-size: 54px;
+	line-height: 1.2;
+}
+
+/* Keep description readable and easy to scan */
+.cta-banner p {
+	max-width: 840px;
+	margin: 0 auto 14px auto;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+/* Make the link look like a bright, clickable button */
+.cta-button {
+	display: inline-block;
+	padding: 12px 24px;
+	background-color: #1f73c9;
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid #2d83da;
+}
+
+/* Add a simple hover state for better feedback */
+.cta-button:hover {
+	background-color: #2b81d8;
+}
+
+/* Create a centered section below the banner */
+.foster-info {
+	max-width: 100%;
+	margin: 0;
+	padding: 46px 24px;
+	text-align: center;
+	color: #0b3a40;
+	background-color: #dfe5e8;
+}
+
+/* Center the information row on the page */
+.info-content {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+/* Build two evenly sized columns with simple layout */
+.info-column {
+	display: inline-block;
+	width: 43%;
+	margin: 0 2.5%;
+	text-align: left;
+	vertical-align: top;
+}
+
+/* Make the image fit the left column neatly */
+.info-column img {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+/* Keep text heading clear and readable */
+.info-column h3 {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-size: 38px;
+	line-height: 1.1;
+	color: #111111;
+}
+
+/* Improve readability for body text */
+.info-column p {
+	margin-top: 0;
+	margin-bottom: 12px;
+	font-size: 15px;
+	line-height: 1.55;
+	color: #222222;
+}
