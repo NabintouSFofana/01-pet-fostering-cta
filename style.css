@@ -22,7 +22,7 @@ body {
 /* Create a tall, eye-catching banner area */
 .cta-banner {
 	min-height: 10vh;
-	padding: 65px 40px 30px 40px;
+	padding: 25px 40px 30px 40px;
 	text-align: center;
 	background-color: #0d5c63;
 	/* Add a light overlay so the image remains subtle */
@@ -71,7 +71,7 @@ body {
 .foster-info {
 	max-width: 100%;
 	margin: 0;
-	padding: 46px 24px;
+	padding: 16px 24px;
 	text-align: center;
 	color: #0b3a40;
 	background-color: #dfe5e8;
@@ -115,4 +115,19 @@ body {
 	font-size: 15px;
 	line-height: 1.55;
 	color: #222222;
+}
+
+/* Create a simple footer for contact and copyright */
+.site-footer {
+	padding: 22px 20px;
+	text-align: center;
+	background-color: #0b4f56;
+	color: #eaf7f7;
+}
+
+/* Keep footer text compact and readable */
+.site-footer p {
+	margin: 6px 0;
+	font-size: 14px;
+	line-height: 1.4;
 }
